@@ -1,0 +1,39 @@
+# Ignore node_modules for both frontend and backend
+/backend/node_modules/
+/frontend/node_modules/
+
+# Ignore .env files for both frontend and backend
+/backend/.env
+/frontend/.env
+
+
+# Node modules
+/node_modules
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local environment variables
+.env
+.env.local
+.env.*.local
+
+# Vite cache
+/.vite
+
+# Output of builds
+/dist
+
+# Mac system files
+.DS_Store
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
